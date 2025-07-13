@@ -35,6 +35,7 @@ ssh-vm-automation/
 ## ⚙️ Step-by-Step Usage
 
 > 🧪 **Dev Machine = the one where you install SSH key**
+
 > 🖥 **Prod Machine = the one from where you connect**
 
 ### 1. Clone the repo:
