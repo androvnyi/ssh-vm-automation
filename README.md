@@ -40,7 +40,7 @@ ssh-vm-automation/
 
 ### 1. Clone the repo:
 
-git clone https://github.com/androvnyi/ssh-vm-automation.git
+`git clone https://github.com/androvnyi/ssh-vm-automation.git`
 
 ### 2. On the prod machine, run:
 
