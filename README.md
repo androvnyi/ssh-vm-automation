@@ -6,9 +6,9 @@ This project demonstrates how to automate the setup of secure SSH communication 
 
 ssh-vm-automation/
 
-- install.sh # Creates a user, generates SSH key, and outputs the public key
-- monitor_resources.sh # Sends CPU/memory/disk stats from remote machine
-- backup_logs.sh # Sends logs from remote machine every 5 minutes
+- install.sh   >   Creates a user, generates SSH key, and outputs the public key
+- monitor_resources.sh   >    Sends CPU/memory/disk stats from remote machine
+- backup_logs.sh    >    Sends logs from remote machine every 5 minutes
 
 
 ---
