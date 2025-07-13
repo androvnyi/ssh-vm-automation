@@ -42,6 +42,8 @@ ssh-vm-automation/
 
 `git clone https://github.com/androvnyi/ssh-vm-automation.git`
 
+---
+
 ### 2. On the prod machine, run:
 
 `sudo ./install.sh`
@@ -54,6 +56,7 @@ ssh-vm-automation/
 
 - prints public key to terminal.
 
+---
 
 ### 3. On the dev machine:
 Create the same deployer user.
@@ -91,5 +94,6 @@ ssh deployer@<dev_machine_ip>
 
 If all is correct — you’ll log in without a password.
 
+---
 
 ✅ That’s it. Good luck! 🙂
