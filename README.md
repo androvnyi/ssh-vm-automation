@@ -6,9 +6,9 @@ This project demonstrates how to automate the setup of secure SSH communication 
 
 ssh-vm-automation/
 
-- install.sh   >   Creates a user, generates SSH key, and outputs the public key
-- monitor_resources.sh   >    Sends CPU/memory/disk stats from remote machine
-- backup_logs.sh    >    Sends logs from remote machine every 5 minutes
+- `install.sh `  >   Creates a user, generates SSH key, and outputs the public key
+- `monitor_resources.sh`   >    Sends CPU/memory/disk stats from remote machine
+- `backup_logs.sh`    >    Sends logs from remote machine every 5 minutes
 
 
 ---
@@ -44,15 +44,15 @@ ssh-vm-automation/
 
 ### 2. On the prod machine, run:
 
-sudo ./install.sh
+`sudo ./install.sh`
 
-This:
+**This:**
 
-creates a deployer user,
+- creates a deployer user,
 
-generates /home/deployer/.ssh/id_rsa,
+- generates /home/deployer/.ssh/id_rsa,
 
-prints public key to terminal.
+- prints public key to terminal.
 
 
 ### 3. On the dev machine:
@@ -66,15 +66,15 @@ Paste the public key into:
 Set permissions:
 
 
-chmod 700 /home/deployer/.ssh
+`chmod 700 /home/deployer/.ssh
 chmod 600 /home/deployer/.ssh/authorized_keys
-chown -R deployer:deployer /home/deployer/.ssh
+chown -R deployer:deployer /home/deployer/.ssh`
 
 
 Restart SSH if needed:
 
 
-sudo systemctl restart ssh
+`sudo systemctl restart ssh`
 
 
 ✅ Verify It's Working
@@ -85,9 +85,9 @@ From the prod machine, try:
 ssh deployer@<dev_machine_ip>
 
 (There are several ways to view your machine's IP address:
-- ip a
-- ip addr show
-- ifconfig
+- `ip a`
+- `ip addr show`
+- `ifconfig`
 
 If all is correct — you’ll log in without a password.
 
