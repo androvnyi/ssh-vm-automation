@@ -96,4 +96,4 @@ If all is correct — you’ll log in without a password.
 
 ---
 
-✅ That’s it. Good luck! 🙂
+That’s it. Good luck! 🙂
