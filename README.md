@@ -1,8 +1,8 @@
-# 🔐 SSH VM Automation — Simple Remote Linux Control
+# SSH VM Automation — Simple Remote Linux Control
 
 This project demonstrates how to automate the setup of secure SSH communication between two Linux virtual machines using just **3 Bash scripts**. It's ideal for beginners who want to understand remote connections, Linux permissions, and shell scripting.
 
-## 📁 Project Structure
+## Project Structure
 
 ssh-vm-automation/
 
@@ -13,7 +13,7 @@ ssh-vm-automation/
 
 ---
 
-## 🚀 What It Does
+##  What It Does
 
 - ✅ Automatically creates a new Linux user (e.g., `deployer`)
 - ✅ Generates SSH key pair for secure access
@@ -24,7 +24,7 @@ ssh-vm-automation/
 
 ---
 
-## 🧠 Prerequisites
+## Prerequisites
 
 - 2 virtual machines with Ubuntu and SSH installed
 - Script execution permissions (`chmod +x`)
@@ -32,11 +32,11 @@ ssh-vm-automation/
 
 ---
 
-## ⚙️ Step-by-Step Usage
+##  Step-by-Step Usage
 
-> 🧪 **Dev Machine = the one where you install SSH key**
+>  **Dev Machine = the one where you install SSH key**
 
-> 🖥 **Prod Machine = the one from where you connect**
+>  **Prod Machine = the one from where you connect**
 
 ### 1. Clone the repo:
 
@@ -80,7 +80,7 @@ Restart SSH if needed:
 `sudo systemctl restart ssh`
 
 
-✅ Verify It's Working
+ Verify It's Working
 
 
 From the prod machine, try:
